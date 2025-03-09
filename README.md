@@ -17,11 +17,17 @@ npm i
 
 # 🔧 Setup
 
-Create a `.env.local` file in the root directory and add your **Storyblok Space ID**:
+1. Log in to **Storyblok CLI**:
 
-```sh
-STORYBLOK_SPACE_ID=your_space_id_here
-```
+   ```sh
+   npx storyblok login
+   ```
+
+2. Create a `.env.local` file in the root directory and add your **Storyblok Space ID**:
+
+   ```sh
+   STORYBLOK_SPACE_ID=your_space_id_here
+   ```
 
 ## ⚡ Usage
 
