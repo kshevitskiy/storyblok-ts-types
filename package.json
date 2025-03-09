@@ -1,0 +1,30 @@
+{
+  "name": "storyblok-ts-types",
+  "version": "0.0.1",
+  "description": "Auto-generate Storyblok TS types",
+  "main": "index.js",
+  "scripts": {
+    "storyblok:types": "/bin/bash scripts/storyblok.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshevitskiy/storyblok-ts-types.git"
+  },
+  "keywords": [
+    "storyblok",
+    "typescript",
+    "components"
+  ],
+  "author": "Yevhenii Kshevitskyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kshevitskiy/storyblok-ts-types/issues"
+  },
+  "homepage": "https://github.com/kshevitskiy/storyblok-ts-types#readme",
+  "devDependencies": {
+    "storyblok": "^3.35.2"
+  },
+  "engines": {
+    "node": "20.10.0"
+  }
+}
