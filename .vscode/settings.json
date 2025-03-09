@@ -5,7 +5,7 @@
     "commands": [
       {
         "match": "__storyblok__/.*\\.json$",
-        "cmd": "npm run storyblok:types"
+        "cmd": "bash scripts/storyblok.sh"
       }
     ]
   }

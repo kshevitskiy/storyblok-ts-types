@@ -7,8 +7,6 @@
 # Load environment variables from .env.local
 export $(cat .env.local | xargs)
 
-node -v
-
 # Ensure STORYBLOK_SPACE_ID is set
 if [ -z "$STORYBLOK_SPACE_ID" ]; then
   echo "STORYBLOK_SPACE_ID is not set in .env.local"

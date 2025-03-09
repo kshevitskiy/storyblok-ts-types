@@ -4,7 +4,7 @@
   "description": "Auto-generate Storyblok TS types",
   "main": "index.js",
   "scripts": {
-    "storyblok:types": "/bin/bash scripts/storyblok.sh"
+    "storyblok:types": "bash scripts/storyblok.sh"
   },
   "repository": {
     "type": "git",
